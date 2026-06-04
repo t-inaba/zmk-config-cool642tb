@@ -1,3 +1,4 @@
+name: cool642tb
 build:
   settings:
-    board_root: .
+    board_root: config
