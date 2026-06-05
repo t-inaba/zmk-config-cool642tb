@@ -119,7 +119,7 @@
 &kp LEFT_CONTROL  &lt 4 CAPS  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt 1 SPACE  &lt 1 SPACE    &lt 2 SPACE                             &mo 5
             >;
 
-            sensor-bindings = <&rot_msc MOVE_Y(5) MOVE_Y(-5)>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         FUNCTION {
