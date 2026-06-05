@@ -5,7 +5,7 @@ manifest:
     #- name: kumamuk-git
     #  url-base: https://github.com/kumamuk-git
     - name: cardinal-sys
-      url-base: https://github.com/cardinal-sys.git
+      url-base: https://github.com/cardinal-sys
     - name: caksoylar
       url-base: https://github.com/caksoylar
   projects:
