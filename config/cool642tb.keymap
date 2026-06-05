@@ -115,8 +115,8 @@
             bindings = <
 &kp Q             &kp W             &kp E         &kp R         &kp T                                    &kp Y        &kp U  &kp I      &kp O       &kp P
 &kp A             &kp S             &kp D         &kp F         &kp G        &mkp MCLK    &kp BACKSPACE  &kp H        &kp J  &kp K      &kp L       &kp ENTER
-&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V         &kp B        &mo 3        &mo 3          &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
-&lt 4 CAPSLOCK    &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt 1 SPACE  &lt 1 SPACE    &lt 2 SPACE                                &mo 5
+&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V         &kp B        &mo 3        &mo 3          &kp N        &kp M  &kp COMMA  &kp DOT     &mt RIGHT_SHIFT SLASH
+&kp LEFT_CONTROL  &lt 4 CAPS        &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt 1 SPACE  &lt 1 SPACE    &lt 2 SPACE                                &mo 5
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -124,10 +124,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC         &trans  &kp LANG2  &trans  &trans                           &kp MINUS  &kp CARET      &kp BACKSLASH  &kp DELETE         &kp BACKSPACE
-&kp TAB         &trans  &kp LANG1  &trans  &trans  &trans  &kp PRINTSCREEN  &trans     &trans         &kp AT_SIGN    &kp LEFT_BRACKET   &kp ENTER
-&kp LEFT_SHIFT  &trans  &trans     &trans  &trans  &trans  &trans           &trans     &kp SEMICOLON  &kp COLON      &kp RIGHT_BRACKET  &mt RIGHT_SHIFT SLASH
-&trans          &trans  &trans     &trans  &trans  &trans  &trans           &trans                                                      &kp UNDERSCORE
+&kp ESC         &trans  &kp JP_MHEN  &trans  &trans                           &kp JP_MINUS  &kp JP_CARET   &kp JP_YEN     &kp DELETE      &kp BACKSPACE
+&kp TAB         &trans  &kp JP_HENK  &trans  &trans  &trans  &kp PRINTSCREEN  &trans        &trans         &kp JP_AT      &kp JP_LBKT     &kp ENTER
+&kp LEFT_SHIFT  &trans  &trans       &trans  &trans  &trans  &trans           &trans        &kp JP_SEMI    &kp JP_COLON   &kp JP_RBKT     &kp RIGHT_SHIFT
+&trans          &trans  &trans       &trans  &trans  &trans  &trans           &trans                                                      &kp JP_BSLH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -146,9 +146,9 @@
 
         SYSTEM {
             bindings = <
-&studio_unlock  &none         &none         &none         &bootloader                            &none     &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &none
-&none           &none         &none         &none         &none         &trans      &bootloader  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR  &trans       &none     &none           &kp RIGHT_WIN   &kp RCTRL        &kp RIGHT_SHIFT
+&studio_unlock  &none         &none         &none         &bootloader                            &bootloader     &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &none
+&none           &none         &none         &none         &none         &trans      &bootloader  &kp HOME        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR  &trans       &none           &none           &kp RIGHT_WIN   &kp RCTRL        &kp RIGHT_SHIFT
 &trans          &trans        &trans        &trans        &trans        &trans      &trans       &trans                                                     &trans
             >;
 
@@ -179,10 +179,10 @@
 
         layer_6 {
             bindings = <
-&kp Q       &kp W      &kp E     &kp R     &kp T                        &kp Y        &kp U  &kp I      &kp O       &kp P
-&kp A       &kp S      &kp D     &kp F     &kp G        &kp N1  &kp N2  &kp H        &kp J  &kp K      &kp L       &kp ENTER
-&kp Z       &kp X      &kp C     &kp V     &kp B        &kp N3  &kp N4  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &kp N5  &kp N6  &lt 2 SPACE                                &kp BSPC
+&trans  &trans  &trans  &trans  &trans                     &trans  &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
