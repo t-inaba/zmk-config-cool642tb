@@ -33,6 +33,11 @@
             bindings = <&kp LG(TAB)>;
             key-positions = <6 7>;
         };
+
+        COMBO_ZENHAN {
+            bindings = <&kp LANG_ZENKAKUHANKAKU>;
+            key-positions = <22 23>;
+        };
     };
 
     macros {
