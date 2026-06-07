@@ -35,7 +35,7 @@
         };
 
         COMBO_ZENHAN {
-            bindings = <&kp LANG_ZENKAKUHANKAKU>;
+            bindings = <&kp JP_ZKHK>;
             key-positions = <22 23>;
         };
     };
