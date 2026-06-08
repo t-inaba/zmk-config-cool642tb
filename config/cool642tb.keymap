@@ -53,6 +53,11 @@
             bindings = <&kp INSERT>;
             key-positions = <5 6>;
         };
+
+        COMBO_MINUS {
+            bindings = <&kp MINUS>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
@@ -161,10 +166,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC         &trans  &kp JP_MHEN  &trans  &trans                           &kp JP_MINUS  &kp JP_CARET  &kp JP_YEN    &kp DELETE   &kp BACKSPACE
-&kp TAB         &trans  &kp JP_HENK  &trans  &trans  &kp PRINTSCREEN  &trans  &trans        &kp JP_AT     &kp JP_LBKT   &kp INSERT   &kp ENTER
-&kp LEFT_SHIFT  &trans  &trans       &trans  &trans  &trans           &trans  &kp JP_SEMI   &kp JP_COLON  &kp JP_RBKT   &trans       &kp RIGHT_SHIFT
-&trans          &trans  &trans       &trans  &trans  &trans           &trans  &trans                                                 &kp JP_BSLH
+&kp ESC         &trans  &kp JP_MHEN  &trans  &trans                           &kp JP_MINUS  &kp JP_CARET  &kp JP_YEN   &kp DELETE  &kp BACKSPACE
+&kp TAB         &trans  &kp JP_HENK  &trans  &trans  &kp PRINTSCREEN  &trans  &trans        &kp JP_AT     &kp JP_LBKT  &kp INSERT  &kp ENTER
+&kp LEFT_SHIFT  &trans  &trans       &trans  &trans  &trans           &trans  &kp JP_SEMI   &kp JP_COLON  &kp JP_RBKT  &trans      &kp RIGHT_SHIFT
+&trans          &trans  &trans       &trans  &trans  &trans           &trans  &trans                                               &kp JP_BSLH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
