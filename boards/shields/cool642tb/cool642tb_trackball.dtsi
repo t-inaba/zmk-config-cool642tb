@@ -25,7 +25,7 @@
 };
 
 &spi0 {
-    status = "disabled";
+    status = "okay";
     compatible = "nordic,nrf-spim";
     pinctrl-0 = <&spi0_default>;
     pinctrl-1 = <&spi0_sleep>;
@@ -33,7 +33,7 @@
     cs-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
 
     trackball: trackball@0 {
-        status = "disabled";
+        status = "okay";
         //compatible = "pixart,pmw3610-alt";
         compatible = "pixart,pmw3610";
         reg = <0>;
@@ -43,11 +43,12 @@
         //cpi = <1000>;
         res-cpi = <1000>;
         //swap-xy;
-        invert-x;
+        //invert-x;
         //invert-y;
         //evt-type = <INPUT_EV_REL>;
         //x-input-code = <INPUT_REL_X>;
         //y-input-code = <INPUT_REL_Y>;
+        invert-x;
         zephyr,axis-x = <INPUT_REL_Y>;
         zephyr,axis-y = <INPUT_REL_X>;
         smart-mode;
