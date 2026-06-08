@@ -55,7 +55,7 @@
         };
 
         COMBO_MINUS {
-            bindings = <&kp MINUS>;
+            bindings = <&kp JP_MINUS>;
             key-positions = <18 19>;
         };
     };
