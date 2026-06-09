@@ -47,6 +47,10 @@
 
 &xiao_serial { status = "disabled"; };
 
+zephyr_udc0: &usbd {
+    status = "okay";
+};
+
 /*
 / {
     /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
