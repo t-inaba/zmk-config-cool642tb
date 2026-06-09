@@ -41,7 +41,7 @@
         //spi-max-frequency = <1000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         //motion-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        cpi = <1000>;
+        cpi = <800>;
         //res-cpi = <1000>;
         //swap-xy;
         //invert-x;
