@@ -1,6 +1,5 @@
 #include "cool642tb.dtsi"
 #include "cool642tb_trackball.dtsi"
-#include <zephyr/drivers/spi.h>
 #include <input/processors.dtsi>
 
 #define MOUSE_LAYER 4
