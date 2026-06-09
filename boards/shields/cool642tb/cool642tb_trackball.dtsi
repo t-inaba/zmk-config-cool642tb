@@ -108,7 +108,13 @@
             18  // J
             19 // K
             20 // L
-            39 // SPACE
+            22 // LEFT_SHIFT
+            33 // RIGHT_SHIFT
+            34 // LEFT_CTRL
+            38 // L SPACE L2
+            39 // L SPACE L1
+            40 // R SPACE L1
+            41 // R SPACE L2
         >; 
     };
 
