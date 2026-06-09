@@ -43,7 +43,7 @@
         //motion-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         cpi = <1000>;
         //res-cpi = <1000>;
-        swap-xy;
+        //swap-xy;
         //invert-x;
         invert-y;
         evt-type = <INPUT_EV_REL>;
