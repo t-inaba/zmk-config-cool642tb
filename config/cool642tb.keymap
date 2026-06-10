@@ -202,7 +202,7 @@
 &trans  &trans  &trans  &trans  &trans                     &trans  &trans     &mkp MCLK  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &trans  &trans  &mkp LCLK  &mo 5      &mkp RCLK  &trans
 &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &mkp LCLK  &trans  &trans                                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -213,7 +213,7 @@
 &trans  &trans  &trans  &trans  &trans                     &trans  &trans     &mkp MCLK  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &trans  &trans  &mkp LCLK  &mo 5      &mkp RCLK  &trans
 &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &mkp LCLK  &trans  &trans                                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
