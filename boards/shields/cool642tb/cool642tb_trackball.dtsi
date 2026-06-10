@@ -34,8 +34,8 @@
 
     trackball: trackball@0 {
         status = "okay";
-        //compatible = "pixart,pmw3610-alt";
-        compatible = "pixart,pmw3610";
+        compatible = "pixart,pmw3610-alt";
+        //compatible = "pixart,pmw3610";
         reg = <0>;
         spi-max-frequency = <2000000>;
         //spi-max-frequency = <1000000>;
@@ -43,12 +43,12 @@
         //motion-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         cpi = <800>;
         //res-cpi = <1000>;
-        ////swap-xy;
-        ////invert-x;
-        //invert-y;
-        //evt-type = <INPUT_EV_REL>;
-        //x-input-code = <INPUT_REL_X>;
-        //y-input-code = <INPUT_REL_Y>;
+        //swap-xy;
+        //invert-x;
+        invert-y;
+        evt-type = <INPUT_EV_REL>;
+        x-input-code = <INPUT_REL_X>;
+        y-input-code = <INPUT_REL_Y>;
         //invert-x;
         //zephyr,axis-x = <INPUT_REL_Y>;
         //zephyr,axis-y = <INPUT_REL_X>;
