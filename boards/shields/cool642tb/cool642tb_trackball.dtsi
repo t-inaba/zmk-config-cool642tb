@@ -55,8 +55,6 @@
         //smart-mode;
         force-awake;
         force-awake-4ms-mode;
-        automouse-layer = <MOUSE_LAYER>;
-        scroll-layers = <SCROLL_LAYER>;
     };
 };
 
