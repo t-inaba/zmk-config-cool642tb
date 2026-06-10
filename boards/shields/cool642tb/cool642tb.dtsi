@@ -109,6 +109,6 @@
     };
 };
 
-&uicr {
-        nfct-pins-as-gpios;
-};
+//&uicr {
+//        nfct-pins-as-gpios;
+//};

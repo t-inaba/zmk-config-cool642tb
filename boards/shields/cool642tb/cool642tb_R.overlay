@@ -2,9 +2,6 @@
 #include "cool642tb_trackball.dtsi"
 #include <input/processors.dtsi>
 
-#define MOUSE_LAYER 4
-#define SCROLL_LAYER 5
-
 / {
     chosen {
         zmk,battery = &non_lipo_battery;
