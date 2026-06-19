@@ -140,7 +140,7 @@
 &kp LEFT_CONTROL  &lt 4 CAPS  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt 1 SPACE  &lt 1 SPACE    &lt 2 SPACE                             &lt 5 JP_BSLH
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_move_y>;
         };
 
         FUNCTION {
@@ -184,7 +184,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans                                   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&scroll_move_y>;
         };
 
         SCROLL {
